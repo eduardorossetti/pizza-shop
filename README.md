@@ -2,6 +2,9 @@
 
 ## 08/02/2024
 
+### Adições
+
 - Adicionada estrutura visual da página de autenticação
-- Configurado a biblioteca react-hook-form para lidar com formulários
-- Configurado a biblioteca zod para validações
+- Adicionada biblioteca react-hook-form para lidar com formulários
+- Adicionada biblioteca zod para validações
+- Adicionado biblioteca sonner para toast pré-estilizados
