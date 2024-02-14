@@ -6,6 +6,7 @@
 
 - Adicionada página de cadastro de restaurante
 - Adicionada página de exibição dos termos de uso e privacidade
+- Adicionado layout do app com cabeçalho
 
 ## 08/02/2024
 
