@@ -1,5 +1,12 @@
 # Histórico de alterações
 
+## 14/02/2024
+
+### Adições
+
+- Adicionada página de cadastro de restaurante
+- Adicionada página de exibição dos termos de uso e privacidade
+
 ## 08/02/2024
 
 ### Adições
