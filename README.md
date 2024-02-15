@@ -10,6 +10,7 @@
 
 - Adicionado tema escuro
 - Adicionado menu da conta
+- Adicionada página de filtragem de pedidos
 
 ## 14/02/2024
 
