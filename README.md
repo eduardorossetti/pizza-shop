@@ -11,6 +11,7 @@
 - Adicionado componente de filtros de pedido
 - Adicionado componente de paginação
 - Adicionado componente dos detalhes dos pedidos
+- Adicionado cartões com detalhamento de períodos da página de dashboard 
 
 ## 15/02/2024
 
