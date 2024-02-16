@@ -2,6 +2,16 @@
 
 ## Disponível somente no ambiente de testes
 
+## 16/02/2024
+
+## APP
+
+### Adições
+
+- Adicionado componente de filtros de pedido
+- Adicionado componente de paginação
+- Adicionado componente dos detalhes dos pedidos
+
 ## 15/02/2024
 
 ## APP
