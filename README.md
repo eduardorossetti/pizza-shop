@@ -14,6 +14,7 @@
 - Adicionado cartões com detalhamento de períodos da página de dashboard
 - Adicionado gráfico de receitas no período
 - Adicionado gráfico de produtos populares
+- Adicionada página 404
 
 ## 15/02/2024
 
