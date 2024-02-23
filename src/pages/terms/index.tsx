@@ -67,7 +67,7 @@ export function Terms() {
         ratione maiores. Ipsam aliquam sequi adipisci, id veritatis nulla cumque
         ea obcaecati ipsum!
       </p>
-      <Button onClick={() => navigate('/sign-up')}>Voltar</Button>
+      <Button onClick={() => navigate('/pizza-shop/sign-up')}>Voltar</Button>
     </div>
   )
 }

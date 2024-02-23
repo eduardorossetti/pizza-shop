@@ -12,38 +12,38 @@ import { Terms } from './pages/terms'
 
 export const router = createBrowserRouter([
   {
-    path: '/',
+    path: '/pizza-shop',
     element: <AppLayout />,
     errorElement: <NotFound />,
     children: [
       {
-        path: '/',
+        path: '/pizza-shop',
         element: <Dashboard />,
       },
       {
-        path: '/orders',
+        path: '/pizza-shop/orders',
         element: <Orders />,
       },
     ],
   },
   {
-    path: '/',
+    path: '/pizza-shop',
     element: <AuthLayout />,
     children: [
       {
-        path: '/sign-in',
+        path: '/pizza-shop/sign-in',
         element: <SignIn />,
       },
       {
-        path: '/sign-up',
+        path: '/pizza-shop/sign-up',
         element: <SignUp />,
       },
       {
-        path: '/terms',
+        path: '/pizza-shop/terms',
         element: <Terms />,
       },
       {
-        path: '/privacy',
+        path: '/pizza-shop/privacy',
         element: <Privacy />,
       },
     ],
