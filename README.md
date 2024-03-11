@@ -2,6 +2,24 @@
 
 <!-- ## Disponível somente no ambiente de testes -->
 
+## APP 1.1.0
+
+### Configurações
+
+- Configurado API client
+- Configurado autenticação do usuário
+
+### Adições
+
+- Adicionado cadastro de restaurante
+- Adicionado perfil no cabeçalho
+- Adicionado componente de carregamento de estado no perfil
+- Adicionado modal de atualização do perfil
+
+### Melhorias
+
+- Atualização do http state
+
 ## 16/02/2024
 
 ## APP 1.0.1
