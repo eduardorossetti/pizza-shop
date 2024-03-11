@@ -10,30 +10,30 @@ import { SignUp } from './pages/auth/sign-up'
 
 export const router = createBrowserRouter([
   {
-    path: '/pizza-shop',
+    path: '/',
     element: <AppLayout />,
     errorElement: <NotFound />,
     children: [
       {
-        path: '/pizza-shop',
+        path: '/',
         element: <Dashboard />,
       },
       {
-        path: '/pizza-shop/orders',
+        path: '/orders',
         element: <Orders />,
       },
     ],
   },
   {
-    path: '/pizza-shop',
+    path: '/',
     element: <AuthLayout />,
     children: [
       {
-        path: '/pizza-shop/sign-in',
+        path: '/sign-in',
         element: <SignIn />,
       },
       {
-        path: '/pizza-shop/sign-up',
+        path: '/sign-up',
         element: <SignUp />,
       },
     ],
