@@ -14,31 +14,24 @@ export function OrderTableSkeleton() {
             <span className="sr-only">Detalhes do pedido</span>
           </Button>
         </TableCell>
-
         <TableCell>
           <Skeleton className="h-4 w-[172px]" />
         </TableCell>
-
         <TableCell>
           <Skeleton className="h-4 w-[148px]" />
         </TableCell>
-
         <TableCell>
           <Skeleton className="h-4 w-[110px]" />
         </TableCell>
-
         <TableCell>
           <Skeleton className="h-4 w-[200px]" />
         </TableCell>
-
         <TableCell>
           <Skeleton className="h-4 w-[64px]" />
         </TableCell>
-
         <TableCell>
           <Skeleton className="h-4 w-[92px]" />
         </TableCell>
-
         <TableCell>
           <Skeleton className="h-4 w-[92px]" />
         </TableCell>

@@ -1,5 +1,5 @@
 import { render } from '@testing-library/react'
-import { userEvent } from '@testing-library/user-event'
+import userEvent from '@testing-library/user-event'
 
 import { Pagination } from './pagination'
 
@@ -26,6 +26,7 @@ describe('Pagination', () => {
 
   it('should be able to navigate to the next page', async () => {
     const user = userEvent.setup()
+
     const wrapper = render(
       <Pagination
         pageIndex={0}
@@ -34,15 +35,19 @@ describe('Pagination', () => {
         onPageChange={onPageChangeCallback}
       />,
     )
+
     const nextPageButton = wrapper.getByRole('button', {
       name: 'Próxima página',
     })
+
     await user.click(nextPageButton)
+
     expect(onPageChangeCallback).toHaveBeenCalledWith(1)
   })
 
-  it('should be able to navigate to the previus page', async () => {
+  it('should be able to navigate to the previous page', async () => {
     const user = userEvent.setup()
+
     const wrapper = render(
       <Pagination
         pageIndex={5}
@@ -51,15 +56,19 @@ describe('Pagination', () => {
         onPageChange={onPageChangeCallback}
       />,
     )
-    const previusPageButton = wrapper.getByRole('button', {
+
+    const nextPageButton = wrapper.getByRole('button', {
       name: 'Página anterior',
     })
-    await user.click(previusPageButton)
+
+    await user.click(nextPageButton)
+
     expect(onPageChangeCallback).toHaveBeenCalledWith(4)
   })
 
   it('should be able to navigate to the first page', async () => {
     const user = userEvent.setup()
+
     const wrapper = render(
       <Pagination
         pageIndex={5}
@@ -68,15 +77,19 @@ describe('Pagination', () => {
         onPageChange={onPageChangeCallback}
       />,
     )
-    const firstPageButton = wrapper.getByRole('button', {
+
+    const nextPageButton = wrapper.getByRole('button', {
       name: 'Primeira página',
     })
-    await user.click(firstPageButton)
+
+    await user.click(nextPageButton)
+
     expect(onPageChangeCallback).toHaveBeenCalledWith(0)
   })
 
   it('should be able to navigate to the last page', async () => {
     const user = userEvent.setup()
+
     const wrapper = render(
       <Pagination
         pageIndex={0}
@@ -85,10 +98,13 @@ describe('Pagination', () => {
         onPageChange={onPageChangeCallback}
       />,
     )
-    const lastPageButton = wrapper.getByRole('button', {
+
+    const nextPageButton = wrapper.getByRole('button', {
       name: 'Última página',
     })
-    await user.click(lastPageButton)
+
+    await user.click(nextPageButton)
+
     expect(onPageChangeCallback).toHaveBeenCalledWith(19)
   })
 })
