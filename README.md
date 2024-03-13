@@ -1,6 +1,12 @@
 # Histórico de alterações
 
-<!-- ## Disponível somente no ambiente de testes -->
+## Disponível somente no ambiente de testes
+
+## APP
+
+# Adições
+
+- Adicionado mocks para teste da aplicação
 
 ## APP 1.1.0
 
