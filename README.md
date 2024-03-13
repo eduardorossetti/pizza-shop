@@ -1,12 +1,6 @@
 # Histórico de alterações
 
-## Disponível somente no ambiente de testes
-
-## APP
-
-# Adições
-
-- Adicionado mocks para teste da aplicação
+- <!-- ## Disponível somente no ambiente de testes -->
 
 ## APP 1.1.0
 
@@ -21,6 +15,7 @@
 - Adicionado perfil no cabeçalho
 - Adicionado componente de carregamento de estado no perfil
 - Adicionado modal de atualização do perfil
+- Adicionado mocks para teste da aplicação
 
 ### Melhorias
 
