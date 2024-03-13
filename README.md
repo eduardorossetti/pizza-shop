@@ -1,6 +1,6 @@
 # Histórico de alterações
 
-- <!-- ## Disponível somente no ambiente de testes -->
+<!-- ## Disponível somente no ambiente de testes -->
 
 ## APP 1.1.0
 
